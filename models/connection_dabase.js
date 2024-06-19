@@ -2,10 +2,10 @@ import mysql from 'mysql2/promise'
 import 'dotenv/config'
 
 const DEFAULT_CONFIG = {
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || '123456',
-  database: process.env.DB_NAME || 'inventory',
+  host: process.env.DB_HOST || 'srv1440.hstgr.io',
+  user: process.env.DB_USER || 'u844692423_user',
+  password: process.env.DB_PASSWORD || 'Samuel200420022',
+  database: process.env.DB_NAME || 'u844692423_respaldo',
   port: process.env.DB_PORT || 3306
 }
 
